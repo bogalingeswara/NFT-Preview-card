@@ -13,33 +13,21 @@
                         height: 100vh;
                         background-color: hsl(217, 54%, 11%);
                         display: flex;
-                        /* flex-direction: column; */
                         justify-content: center;
                         align-items: center;
                     }
                     
                     #card {
-                        /* height: 100%; */
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        text-align: center;
                         width: 250px;
-                        margin: auto;
                         background-color: hsl(216, 50%, 16%);
                         border-radius: 15px;
                         padding: 15px;
-                        position: relative;
                     }
                     
-                    #img-wrapper {
-                        width: 250px;
-                        overflow: hidden;
-                    }
+                   
                     
                     #img-wrapper img {
-                        width: 100%;
+                        width: 250px;
                         border-radius: 10px;
                     }
                     
@@ -65,14 +53,12 @@
                         justify-content: space-between;
                         font-size: small;
                         border-bottom: 1px solid hsl(215, 51%, 70%);
-                        ;
                         padding-bottom: 25px;
                     }
                     
                     #ethereum {
                         display: flex;
                         align-items: center;
-                        /* background-color: brown; */
                         color: hsl(178, 100%, 50%);
                         margin-right: 15px;
                     }
@@ -80,7 +66,6 @@
                     #clock {
                         display: flex;
                         align-items: center;
-                        /* background-color: brown; */
                         color: hsl(215, 51%, 70%);
                     }
                     
