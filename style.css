@@ -37,6 +37,10 @@
                         text-align: left;
                         color: white;
                     }
+                    #heading:hover{
+                        color: hsl(178, 100%, 50%);
+                        cursor: pointer;
+                    }
                     
                     #content {
                         width: 250px;
@@ -89,4 +93,8 @@
                     
                     #avatar p span {
                         color: white;
+                    }
+                    #avatar p span:hover {
+                        color: hsl(178, 100%, 50%);
+                        cursor: pointer;
                     }
