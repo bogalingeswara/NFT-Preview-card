@@ -23,12 +23,39 @@
                         border-radius: 15px;
                         padding: 15px;
                     }
-                    
-                   
+
+                     #img-wrapper {
+                        position: relative;
+                        overflow: hidden;
+                        border-radius: 10px;
+                        width: 250px;
+                    }
                     
                     #img-wrapper img {
                         width: 250px;
                         border-radius: 10px;
+                        display:block;
+                    }
+
+                   #view-icon {
+                        top: 0;
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        background-color: hsla(178, 100%, 50%, 0.2);
+                        display: none;
+                    }
+        
+                   #view-icon img {
+                        position: absolute;
+                        width: 50px;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+        
+                    #img-wrapper:hover #view-icon {
+                        display: block;
                     }
                     
                     #heading {
